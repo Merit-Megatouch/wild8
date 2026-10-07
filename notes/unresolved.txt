@@ -2,30 +2,4 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-LinkFanTimeSetting | wild8.so
-LinkShowDeckSetting | wild8.so
-NetGlob | wild8.so
-RankFunc | wild8.so
-Card_PollLinks() | wild8.so
-DisplayDefeated(int, int) | wild8.so
-Card_ActiveDelay(int) | wild8.so
-Card_LinkWaitForAll(unsigned long) | wild8.so
 ExplodeTRoundGraphics() | wild8.so
-GetMyId() | wild8.so
-Delay_PE(unsigned long) | wild8.so
-NetGlobals::GetLeaderScore() | wild8.so
-NetGlobals::GetRank(unsigned char) | wild8.so
-Bitmap::CopyFromVB(int, int, int) | wild8.so
-Bitmap::ConvertSmack(unsigned char) | wild8.so
-Bitmap::CopyFromScreen(int, int, bool) | wild8.so
-Bitmap::SmackAnimationAdvance(unsigned char) | wild8.so
-Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | wild8.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | wild8.so
-Bitmap::Clear() | wild8.so
-Bitmap::LoadSmack(char*, unsigned char, unsigned char) | wild8.so
-_rgb_b_shift_16 | wild8.so
-_rgb_g_shift_16 | wild8.so
-_rgb_r_shift_16 | wild8.so
-getb | wild8.so
-getg | wild8.so
-getr | wild8.so
